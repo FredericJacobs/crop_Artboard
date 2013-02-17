@@ -14,7 +14,7 @@ Since I couldn't find how to measure the margin accurately, the app requires the
 
 The set up works occurs in two part.
 
-You'll need to download : XXX (URL to come)
+You'll need to download : [Resize.zip](http://cl.ly/MyKh)
 
 ### Set up a shortcut to export from SketchApp to the clipboard
 
@@ -22,9 +22,9 @@ Go to the Sketch App Preferences and enable scripting.
 
 Now on the "Plugins" Menu Bar tab, click on Custom Script >> Settings gear >> Open Plugins Folder.
 
-Drag and drop the script that is in the archive you downloaded in that folder.
+Drag and drop the script (export.jstalk) that is in the archive you downloaded in that folder.
 
-Now when you hit "alt+command+C", it will copy your art board to the clipboard.
+Now when you hit "control+command+C", it will copy your art board to the clipboard.
 
 ### Set up the resizer that fetches the clipboard content from SketchApp and that serves it to Skala.
 
