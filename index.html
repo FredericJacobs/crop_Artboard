@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Resizer by FredericJacobs</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Resizer</h1>
+        <h2>Sketch App to Skala Preview Resizer</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/FredericJacobs/resizer/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/FredericJacobs/resizer/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/FredericJacobs/resizer" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>Resizer for Sketch App + Skala</h1>
+
+<p>I've been using Sketch App for a few months now, I really love it. But since I'm working mostly on mobile the lack of compatibility with Skala Preview annoyed me.</p>
+
+<p>If you don't know about Sketch App, <a href="http://checkthis.com/sketch">read about it here in french</a> or <a href="http://www.bohemiancoding.com/sketch/">check the official website</a>.</p>
+
+<p>Today, <a href="https://twitter.com/tbnv">Thibaut Ninove</a> pointed out that he had a script that was exporting the Sketch App art boards to the clipboard. Unfortunately, there is a bug in Sketch App that exports them with a border of a random number of pixels (well, it's probably not random but I couldn't figure out the logic). </p>
+
+<p>Since I love that app so much (and I'm not the only one out there), I created a complement app that fetches the newly exported artboards from SketchApp and that removes the frame so that it can be tried in Skala Preview.</p>
+
+<p>Since I couldn't find how to measure the margin accurately, the app requires the user to set the margin size himself when he changes to an artboard that has a different size.</p>
+
+<h2>How to set up ?</h2>
+
+<p>The set up works occurs in two part.</p>
+
+<p>You'll need to download : <a href="http://cl.ly/MyKh">Resize.zip</a></p>
+
+<h3>Set up a shortcut to export from SketchApp to the clipboard</h3>
+
+<p>Go to the Sketch App Preferences and enable scripting.</p>
+
+<p>Now on the "Plugins" Menu Bar tab, click on Custom Script &gt;&gt; Settings gear &gt;&gt; Open Plugins Folder.</p>
+
+<p>Drag and drop the script (export.jstalk) that is in the archive you downloaded in that folder.</p>
+
+<p>Now when you hit "control+command+C", it will copy your art board to the clipboard.</p>
+
+<h3>Set up the resizer that fetches the clipboard content from SketchApp and that serves it to Skala.</h3>
+
+<p>Just open the Resize.app and you should be ready to go.</p>
+
+<h2>Customization</h2>
+
+<p>Everything is open-source (except Skala and Sketch App), feel free to customize it.</p>
+
+<p>To change your keyboard shortcut, take a look at the <a href="http://bohemiancoding.com/sketch/scripting/">Bohemian Coding Scripting Documentation</a></p>
+
+<h2>Special thanks</h2>
+
+<p>Thanks to <a href="https://twitter.com/tbnv">Thibaut Ninove</a> for the challenge and Yara for the mental support.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
