@@ -17,15 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B617C4B116CFED8200C725D6 /* Resize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B617C4B116CFED8200C725D6 /* Crop Artboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crop Artboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B617C4B416CFED8200C725D6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B617C4B716CFED8200C725D6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B617C4B816CFED8200C725D6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B617C4B916CFED8200C725D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B617C4BC16CFED8200C725D6 /* Resize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resize-Info.plist"; sourceTree = "<group>"; };
+		B617C4BC16CFED8200C725D6 /* Crop Artboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crop Artboard-Info.plist"; sourceTree = "<group>"; };
 		B617C4BE16CFED8200C725D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B617C4C016CFED8200C725D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B617C4C216CFED8200C725D6 /* Resize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resize-Prefix.pch"; sourceTree = "<group>"; };
+		B617C4C216CFED8200C725D6 /* Crop Artboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crop Artboard-Prefix.pch"; sourceTree = "<group>"; };
 		B617C4C416CFED8200C725D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		B617C4C616CFED8200C725D6 /* RFJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFJAppDelegate.h; sourceTree = "<group>"; };
 		B617C4C716CFED8200C725D6 /* RFJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFJAppDelegate.m; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		B617C4B216CFED8200C725D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B617C4B116CFED8200C725D6 /* Resize.app */,
+				B617C4B116CFED8200C725D6 /* Crop Artboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +98,10 @@
 		B617C4BB16CFED8200C725D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B617C4BC16CFED8200C725D6 /* Resize-Info.plist */,
+				B617C4BC16CFED8200C725D6 /* Crop Artboard-Info.plist */,
 				B617C4BD16CFED8200C725D6 /* InfoPlist.strings */,
 				B617C4C016CFED8200C725D6 /* main.m */,
-				B617C4C216CFED8200C725D6 /* Resize-Prefix.pch */,
+				B617C4C216CFED8200C725D6 /* Crop Artboard-Prefix.pch */,
 				B617C4C316CFED8200C725D6 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B617C4B016CFED8200C725D6 /* Resize */ = {
+		B617C4B016CFED8200C725D6 /* Crop Artboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B617C4CE16CFED8200C725D6 /* Build configuration list for PBXNativeTarget "Resize" */;
+			buildConfigurationList = B617C4CE16CFED8200C725D6 /* Build configuration list for PBXNativeTarget "Crop Artboard" */;
 			buildPhases = (
 				B617C4AD16CFED8200C725D6 /* Sources */,
 				B617C4AE16CFED8200C725D6 /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = Resize;
+			name = "Crop Artboard";
 			productName = Resize;
-			productReference = B617C4B116CFED8200C725D6 /* Resize.app */;
+			productReference = B617C4B116CFED8200C725D6 /* Crop Artboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Frederic Jacobs";
 			};
-			buildConfigurationList = B617C4AC16CFED8200C725D6 /* Build configuration list for PBXProject "Resize" */;
+			buildConfigurationList = B617C4AC16CFED8200C725D6 /* Build configuration list for PBXProject "Crop Artboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B617C4B016CFED8200C725D6 /* Resize */,
+				B617C4B016CFED8200C725D6 /* Crop Artboard */,
 			);
 		};
 /* End PBXProject section */
@@ -272,9 +272,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Resize/Resize-Prefix.pch";
-				INFOPLIST_FILE = "Resize/Resize-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Resize/Crop Artboard-Prefix.pch";
+				INFOPLIST_FILE = "Resize/Crop Artboard-Info.plist";
+				PRODUCT_NAME = "Crop Artboard";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -284,9 +284,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Resize/Resize-Prefix.pch";
-				INFOPLIST_FILE = "Resize/Resize-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Resize/Crop Artboard-Prefix.pch";
+				INFOPLIST_FILE = "Resize/Crop Artboard-Info.plist";
+				PRODUCT_NAME = "Crop Artboard";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -294,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B617C4AC16CFED8200C725D6 /* Build configuration list for PBXProject "Resize" */ = {
+		B617C4AC16CFED8200C725D6 /* Build configuration list for PBXProject "Crop Artboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B617C4CC16CFED8200C725D6 /* Debug */,
@@ -303,7 +303,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B617C4CE16CFED8200C725D6 /* Build configuration list for PBXNativeTarget "Resize" */ = {
+		B617C4CE16CFED8200C725D6 /* Build configuration list for PBXNativeTarget "Crop Artboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B617C4CF16CFED8200C725D6 /* Debug */,

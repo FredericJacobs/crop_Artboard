@@ -1,0 +1,6 @@
+// shortcut: (ctrl cmd c)
+var artboard = [[[doc currentPage] artboards] firstObject];
+
+var array = [NSArray arrayWithObject:artboard];
+
+[[doc currentHandler] writeLayers:array toPasteboard:[NSPasteboard generalPasteboard]];
