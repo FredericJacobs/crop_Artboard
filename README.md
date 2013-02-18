@@ -1,4 +1,4 @@
-# Resizer for Sketch App + Skala
+# Crop Artboard for Sketch App + Skala
 
 I've been using Sketch App for a few months now, I really love it. But since I'm working mostly on mobile the lack of compatibility with Skala Preview annoyed me.
 
