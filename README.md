@@ -14,21 +14,17 @@ Since I couldn't find how to measure the margin accurately, the app requires the
 
 The set up works occurs in two part.
 
-You'll need to download : [Resize.zip](http://cl.ly/MyKh)
+You'll need to download : [Crop Artboard.zip](http://cl.ly/MySr)
 
 ### Set up a shortcut to export from SketchApp to the clipboard
 
-Go to the Sketch App Preferences and enable scripting.
-
-Now on the "Plugins" Menu Bar tab, click on Custom Script >> Settings gear >> Open Plugins Folder.
-
-Drag and drop the script (export.jstalk) that is in the archive you downloaded in that folder.
+Drag and drop the export.sketchplugin on the SketchApp icon.
 
 Now when you hit "control+command+C", it will copy your art board to the clipboard.
 
 ### Set up the resizer that fetches the clipboard content from SketchApp and that serves it to Skala.
 
-Just open the Resize.app and you should be ready to go.
+Just open the Crop Artboard.app and you should be ready to go.
 
 ## Customization
 
