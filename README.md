@@ -14,11 +14,11 @@ Since I couldn't find how to measure the margin accurately, the app requires the
 
 The set up works occurs in two part.
 
-You'll need to download : [Crop Artboard.zip](http://cl.ly/MySr)
+You'll need to download : [Crop Artboard.zip](http://cl.ly/MxVB)
 
 ### Set up a shortcut to export from SketchApp to the clipboard
 
-Drag and drop the export.sketchplugin on the SketchApp icon.
+Drag and drop the "Crop Artboard.sketchplugin" on the SketchApp icon.
 
 Now when you hit "control+command+C", it will copy your art board to the clipboard.
 
